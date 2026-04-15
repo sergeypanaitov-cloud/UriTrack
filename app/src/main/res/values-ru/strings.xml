@@ -1,0 +1,127 @@
+<resources>
+
+    <string name="app_name">UriTrack</string>
+
+    <!-- Экспорт / импорт -->
+    <string name="exportPDF">Экспорт в PDF</string>
+    <string name="exportCSV">Экспорт в CSV</string>
+    <string name="exportXLSX">Экспорт в Excel (XLSX)</string>
+    <string name="export">Экспорт данных</string>
+    <string name="imPort">Импорт данных</string>
+    <string name="clear">Очистить данные</string>
+
+    <!-- Прочее -->
+    <string name="section_format">Пример раздела: %1$d</string>
+    <string name="arrowleft"><![CDATA[<]]></string>
+    <string name="arrowright"><![CDATA[>]]></string>
+
+    <!-- Меню -->
+    <string name="about">О приложении</string>
+    <string name="help">Помощь</string>
+
+    <!-- Описание -->
+    <string name="aboutText">
+UriTrack — это приложение, которое позволяет отслеживать мочеиспускание и контролировать состояние мочевыделительной системы. Приложение предоставляет графики и статистику, а также возможность экспортировать данные в PDF-таблицу, которую можно показать врачу.
+
+Это приложение было создано Виктором Коцуром в свободное время. Это его первый Android-проект, поэтому возможны ошибки, в том числе серьёзные. Если у вас есть отзывы или предложения, пожалуйста, свяжитесь по адресу: kocurvik@gmail.com.
+    </string>
+
+    <string name="helpText">
+Приложение состоит из трёх вкладок: Трекер, Журнал и Аналитика.
+
+Вкладка ТРЕКЕР позволяет добавлять новые события. Обратите внимание: событие "позыв" используется только тогда, когда было ощущение позыва, но мочеиспускания не произошло.
+
+Вкладка ЖУРНАЛ позволяет просматривать и редактировать записи. Иконки под датой позволяют включать/выключать отображение типов событий. Нажмите на запись, чтобы изменить или удалить её.
+
+Вкладка АНАЛИТИКА показывает графики и статистику. Можно нажать на точку графика, чтобы увидеть значение (работает не всегда корректно).
+    </string>
+
+    <!-- Настройки -->
+    <string name="measurement_units">Единицы измерения</string>
+
+    <!-- Типы событий -->
+    <string-array name="event_types">
+        <item>Мочеиспускание</item>
+        <item>Потребление жидкости</item>
+        <item>Подтекание</item>
+        <item>Позыв</item>
+        <item>Катетер</item>
+        <item>Заметка</item>
+    </string-array>
+
+    <!-- Аналитика -->
+    <string-array name="analytics_types">
+        <item>Объём мочеиспускания</item>
+        <item>Объём выпитой жидкости</item>
+        <item>Объём подтекания</item>
+        <item>Объём через катетер</item>
+        <item>Общий объём выделения</item>
+        <item>Мочеиспусканий в день</item>
+        <item>Подтеканий в день</item>
+        <item>Приёмов жидкости в день</item>
+        <item>Позывов без мочеиспускания в день</item>
+        <item>Катетеризаций в день</item>
+        <item>Средний объём мочеиспускания</item>
+        <item>Средняя интенсивность позыва при мочеиспускании</item>
+        <item>Средний объём подтекания</item>
+        <item>Средняя интенсивность позыва при подтекании</item>
+        <item>Средний объём жидкости</item>
+        <item>Средняя интенсивность позыва без мочеиспускания</item>
+        <item>Средний объём при катетеризации</item>
+        <item>Средняя интенсивность позыва при катетеризации</item>
+        <item>Соотношение выпитого к выделенному (%)</item>
+        <item>Соотношение выделенного к выпитому (%)</item>
+        <item>Процент выделения через мочеиспускание</item>
+        <item>Процент выделения через подтекание</item>
+        <item>Процент выделения через катетер</item>
+    </string-array>
+
+    <!-- Единицы -->
+    <string-array name="volume_units">
+        <item>дл</item>
+        <item>мл</item>
+        <item>унции</item>
+    </string-array>
+
+    <!-- Напитки -->
+    <string-array name="drink_types">
+        <item>Вода</item>
+        <item>Газировка</item>
+        <item>Сок</item>
+        <item>Кофе</item>
+        <item>Чай</item>
+        <item>Пиво</item>
+        <item>Вино</item>
+        <item>Алкоголь</item>
+        <item>Суп</item>
+        <item>Фрукты</item>
+        <item>Кофе без кофеина</item>
+        <item>Чай без кофеина</item>
+        <item>Молоко</item>
+        <item>Йогурт</item>
+        <item>Мороженое</item>
+        <item>Другое</item>
+    </string-array>
+
+    <!-- Форматы дат -->
+    <string-array name="date_formats">
+        <item>yyyy-MM-dd (2020-02-01)</item>
+        <item>dd/MM/yyyy (01/02/2020)</item>
+        <item>dd.MM.yyyy (01.02.2020)</item>
+        <item>d.M.yyyy (1.2.2020)</item>
+        <item>MM/dd/yyyy (02/01/2020)</item>
+        <item>MM-dd-yyyy (02-01-2020)</item>
+        <item>d MMM yyyy (1 фев 2020)</item>
+        <item>yyyy-MM-dd, EEE (2020-02-01, сб)</item>
+        <item>EEE, d MMM yyyy (сб, 1 фев 2020)</item>
+        <item>EEE, d.M.yyyy (сб, 1.2.2020)</item>
+        <item>EEE, MM-dd-yyyy (сб, 02-01-2020)</item>
+    </string-array>
+
+    <!-- Форматы времени -->
+    <string-array name="time_formats">
+        <item>24-часовой (15:24)</item>
+        <item>12-часовой (3:24 AM)</item>
+    </string-array>
+
+</resources>
